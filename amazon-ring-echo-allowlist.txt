@@ -38,7 +38,14 @@ api.prod.signalling.ring.devices.a2z.com
 ||a2z.com^
 ||amazonaws.com^
 ||cloudfront.net^
+||prod.service.minerva.devices.a2z.com^
+
+! Ring EU notifications
+bob-dispatch-prod-eu.amazon.com
 
 ! --- Certificates / security ---
 ocsp.rootg2.amazontrust.com
 ocsp.sca1b.amazontrust.com
+
+! Optional – only if instability continues
+! ||diagnostic.networking.aws.dev^
