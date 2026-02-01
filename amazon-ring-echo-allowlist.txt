@@ -1,0 +1,44 @@
+! Amazon / Ring / Echo / Fire TV allowlist
+! For AdGuard Home
+! Covers: Ring Alarm, Ring Cameras, Echo Show, Echo Flex, Fire TV
+
+! --- Alexa / Echo core ---
+alexa.amazon.com
+api.amazonalexa.com
+avs-alexa.amazonaws.com
+avs-alexa-na.amazon.com
+avs-alexa-eu.amazon.com
+pitangui.amazon.com
+unagi.amazon.com
+unagi-na.amazon.com
+device-messaging-na.amazon.com
+device-metrics-us.amazon.com
+device-metrics-us-2.amazon.com
+
+! --- Echo Show display & images ---
+dp-gw-na.amazon.com
+dp-gw-eu.amazon.com
+images-na.ssl-images-amazon.com
+images-eu.ssl-images-amazon.com
+
+! --- Fire TV ---
+firetv.amazon.com
+fireos.amazon.com
+softwareupdates.amazon.com
+amzdigitaldownloads.edgesuite.net
+
+! --- Ring (cameras + alarm) ---
+ring.com
+api.ring.com
+app.ring.com
+device.ring.com
+api.prod.signalling.ring.devices.a2z.com
+
+! --- Amazon / Ring infrastructure (wildcards) ---
+||a2z.com^
+||amazonaws.com^
+||cloudfront.net^
+
+! --- Certificates / security ---
+ocsp.rootg2.amazontrust.com
+ocsp.sca1b.amazontrust.com
